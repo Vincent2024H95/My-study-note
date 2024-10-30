@@ -40,6 +40,6 @@
 
 - 弹窗是什么样的，我放在文件夹了，等我学会了怎么把图片在GitHub的md文件正常显示，我再更新。
 
-- 更新：弹窗是这样的：[](https://github.com/Vincent2024H95/My-study-note/blob/7a8b8e112968b46f9b5d80d06159972dd962f6d2/Vincent's%20study%20diary/image/2222.png)
+- 更新：弹窗是这样的：![](https://github.com/Vincent2024H95/My-study-note/blob/78b0228b00fbf4a7637b7eb22e5ed6e1cdbda939/Vincent's%20study%20diary/image/2222.png)
 
   2.**设置root用户登陆，更改中文，安装中文输入法**
