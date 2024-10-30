@@ -38,7 +38,7 @@
 
 - 在使用这些命令的时候会出现一个弹窗，内容是什么我也不清楚，全英文看不懂，我也懒得翻译，当时我很疑惑，因为我在安装蓝色版本的kali和早期紫色版本的kali时是没有这个弹窗的，我就不理解，后来键盘一顿乱按也就跳过了这个弹窗，就没有理会。
 
-- 弹窗是这样的：<img src="C:\Users\heng\AppData\Roaming\Typora\typora-user-images\image-20241030111302283.png" alt="image-20241030111302283" />
+- 弹窗是这样的：![](C:\Users\heng\Desktop\MyCodeforGithub\Vincent's study diary\1.png)
 
   我选择了no
 
