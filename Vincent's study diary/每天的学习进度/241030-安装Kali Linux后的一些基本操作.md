@@ -34,6 +34,7 @@
   apt-get dist-upgrade    #升级
   apt-get clean           #删除缓存包
   apt-get autoclean       #删除未安装的deb包
+  apt-get autoremove      #移除不需要的软件包
   ```
 
 - 在使用这些命令的时候会出现一个弹窗，内容是什么我也不清楚，全英文看不懂，我也懒得翻译，当时我很疑惑，因为我在安装蓝色版本的kali和早期紫色版本的kali时是没有这个弹窗的，我就不理解，后来键盘一顿乱按也就跳过了这个弹窗，就没有理会。
@@ -48,4 +49,21 @@
 
 - 当完成第一步的内容后，一定要保存快照，不然出问题了只能重装
 
-- 
+- 设置root登录：sudo passwd root
+
+- 然后输入新的密码，保存快照，重启root登录
+
+- 设置中文：
+
+- 前提：已经进行了第一步的操作
+
+  - 安装locales包：sudo apt-get install -y locales
+  - 开始设置：sudo dpkg-reconfigure locales
+  - 方向键上下或滚轮，找到zh_CN.UTF-8
+  - 空格选中，tab键确认
+  - 选中zh_CN，依旧是tab键确认，回车
+  - reboot
+
+- 有个很恶心的点，不知道为什么，我在root用户下设置中文，重复了很多次，也找了很多方法设置，它就是一直显示中文。它只能在普通用户下才能显示中文，草！
+
+​	
